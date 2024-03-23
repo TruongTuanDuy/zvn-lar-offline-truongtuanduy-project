@@ -1,4 +1,4 @@
-@extends('furniz.main-category')
+@extends('furniz.main')
 @section('content')
     <!-- Category Section Start -->
     <section class="wow fadeInUp">

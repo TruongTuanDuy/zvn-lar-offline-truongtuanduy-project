@@ -1,4 +1,4 @@
-@extends('furniz.main-product')
+@extends('furniz.main')
 @section('content')
     <!-- Product Left Sidebar Start -->
     <section class="product-section">

@@ -25,3 +25,43 @@ Route::get('/danh-muc', function () {
 Route::get('/san-pham', function () {
     return view('furniz.pages.product.index');
 });
+
+Route::get('/danh-sach-bai-viet', function () {
+    return view('furniz.pages.article-category.index');
+});
+
+Route::get('/bai-viet', function () {
+    return view('furniz.pages.article.index');
+});
+
+Route::get('/gio-hang', function () {
+    return view('furniz.pages.cart.index');
+});
+
+Route::get('/thanh-toan', function () {
+    return view('furniz.pages.order.checkout');
+});
+
+Route::get('/dat-hang-thanh-cong', function () {
+    return view('furniz.pages.order.success');
+});
+
+Route::get('/tra-cuu-don-hang', function () {
+    return view('furniz.pages.order.tracking');
+});
+
+Route::get('/lien-he', function () {
+    return view('furniz.pages.contact-us.index');
+});
+
+Route::get('/bang-dieu-khien', function () {
+    return view('furniz.pages.dashboard.index');
+});
+
+Route::get('/gioi-thieu', function () {
+    return view('furniz.templates.about-us');
+});
+
+Route::get('/404', function () {
+    return view('furniz.templates.404');
+});
